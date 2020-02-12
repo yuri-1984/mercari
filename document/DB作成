@@ -1,0 +1,9 @@
+データベースを作成】
+・ターミナル用
+createdb -U postgres -E utf-8 -W -e ec_2019c
+
+・PgAdmin用
+CREATE DATABASE ec_201910c
+  WITH ENCODING='UTF8'
+       OWNER=postgres;
+       
